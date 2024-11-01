@@ -1,0 +1,244 @@
+# Copyright (C) 2024 Nomba
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nomba Payment Gateway for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-nomba-gateway\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-27T08:44:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"language-team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Domain: wc-nomba-gateway\n"
+
+#. Plugin Name of the plugin
+msgid "Nomba Payment Gateway for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://nomba.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Nomba payment gateway for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+#: includes/class-wc-gateway-nomba.php:78
+#: resources/js/frontend/index.js:8
+msgid "Nomba"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba-subscriptions.php:57
+msgid "This subscription has a free trial, reason for the 0 amount"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba-subscriptions.php:101
+msgid "This subscription can&#39;t be renewed automatically. The customer will have to login to their account to renew their subscription"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba-subscriptions.php:133
+msgid "Unable to process subscription renewal payment."
+msgstr ""
+
+#. translators: %s Nomba Online Checkout Order ID
+#: includes/class-wc-gateway-nomba-subscriptions.php:165
+#: includes/class-wc-gateway-nomba.php:677
+msgid "Payment via Nomba successful (Nomba Order ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba-subscriptions.php:172
+msgid "Nomba payment failed."
+msgstr ""
+
+#. translators: %s transaction failure reason
+#: includes/class-wc-gateway-nomba-subscriptions.php:176
+msgid "Nomba payment failed. Reason: %s."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba-subscriptions.php:182
+msgid "Nomba payment failed"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:51
+msgctxt "Nomba payment method"
+msgid "Nomba"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:52
+msgid "Accept Payment via Nomba."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:109
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:111
+msgid "Enable Nomba"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:115
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:117
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:118
+msgctxt "Nomba payment method title"
+msgid "Accept Secure Payment via Nomba"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:122
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:124
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:125
+msgctxt "Nomba payment method description"
+msgid "Accept Card (Mastercard, Visa, Verve & Amex) and Bank Transfer payments via Nomba"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:129
+msgid "Payment via Saved Cards"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:130
+msgid "Enable Payment via Saved Cards"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:132
+msgid "Allow customers to make payment using their saved cards. Card details are saved securely on Nomba servers."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:137
+msgid "Test Mode"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:138
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:140
+msgid "Test mode enables you to test payments before going live. <br />Once you are live uncheck this."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:145
+msgid "API credentials"
+msgstr ""
+
+#. translators: %s: Nomba Dashboard URL
+#: includes/class-wc-gateway-nomba.php:148
+msgid "Enter your Nomba API credentials. You can get your Nomba API credentials on your <a href=\"%s\" target=\"_blank\">Nomba Dashboard</a>."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:151
+msgid "Test Client ID"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:153
+msgid "Test Client ID."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:157
+msgid "Test Private Key"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:159
+msgid "Test Private Key."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:163
+msgid "Test Account ID"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:165
+msgid "Test Account ID."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:169
+msgid "Live Client ID"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:171
+msgid "Live Client ID."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:175
+msgid "Live Private Key"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:177
+msgid "Live Private Key."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:181
+msgid "Live Account ID"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:183
+msgid "Live Account ID."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:335
+#: includes/class-wc-gateway-nomba.php:646
+msgid "Unable to process payment try again"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:364
+msgid "Unable to process payment try again."
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:390
+msgid "Thank you for shopping with us.<br />Your payment transaction was successful, but the amount paid is not the same as the total order amount.<br />Your order is currently on hold.<br />Kindly contact us for more information regarding your order and payment status."
+msgstr ""
+
+#. translators: 1: Amount paid currency symbol 2: Amount paid 3: Order total currency symbol 4: Order total 5: Nomba transaction ID
+#: includes/class-wc-gateway-nomba.php:398
+msgid "<strong>Look into this order</strong><br />This order is currently on hold.<br />Reason: Amount paid is less than the total order amount.<br />Amount Paid was <strong>%1$s%2$s</strong> while the total order amount is <strong>%3$s%4$s</strong><br /><strong>Nomba Transaction ID: </strong> %5$s"
+msgstr ""
+
+#. translators: Nomba transaction ID.
+#: includes/class-wc-gateway-nomba.php:406
+msgid "Payment via Nomba successful.<br /><strong>Nomba Transaction ID:</strong> %s."
+msgstr ""
+
+#. translators: Nomba transaction ID
+#: includes/class-wc-gateway-nomba.php:582
+msgid "Payment via Nomba failed.<br />Transaction ID: %s"
+msgstr ""
+
+#. translators: 1: Nomba transaction ID. 2: Failed payment reason
+#: includes/class-wc-gateway-nomba.php:586
+msgid "Payment via Nomba failed.<br />Transaction ID: %1$s.<br />Reason: %2$s.<br />"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:612
+msgid "Payment failed"
+msgstr ""
+
+#. translators: %s: reason for failed payment
+#: includes/class-wc-gateway-nomba.php:685
+msgid "Payment Failed. Reason: %s"
+msgstr ""
+
+#. translators: %s: reason for failed payment
+#: includes/class-wc-gateway-nomba.php:685
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/class-wc-gateway-nomba.php:733
+msgid "You can only add a new card when placing an order."
+msgstr ""
+
+#: wc-nomba-gateway.php:105
+msgid "Settings"
+msgstr ""
